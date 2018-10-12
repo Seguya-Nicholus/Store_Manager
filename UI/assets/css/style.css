@@ -7,6 +7,21 @@
     justify-content: center;
 }
 
+.flex_welcome_left {
+    width: 80%;
+    float: left;
+    align-content: left;
+    padding: 15px;  
+}
+
+.flex_welcome_right {
+    width: 20%;
+    float: left;
+    align-content: left;
+    padding: 15px;  
+}
+
+
 .flex_left_side{
     width: 30%;
     float: left;
