@@ -1,6 +1,4 @@
-table, th, td {
-  border: 1px solid black;
-}
+
 
 table {
   width: 100%;
@@ -25,24 +23,33 @@ td {
 
 .sidenav {
   list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 250px;
-    background-color: #f1f1f1;
-  
+  margin: 0;
+  padding: 0;
+  width: 250px;
+  background-color:  white;
+  font-size: 20px;  
+}
+
+.sidenav li {
+  margin-bottom: 5px;
+  background-color: #008fb3;
 }
 
 .sidenav a {
   display: block;
-  color: #000;
+  color: white;
   padding: 8px 16px;
   text-decoration: none;
   
 }
 
 .sidenav a:hover {
-  background-color: #008fb3;
-  color: white;
-  
+  background-color: #333;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
 }
 
