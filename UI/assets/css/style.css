@@ -7,6 +7,20 @@
     justify-content: center;
 }
 
+.flex_signup_left {
+    width: 60%;
+    float: left;
+    align-content: left;
+    padding: 15px;  
+}
+
+.flex_signup_right {
+    width: 40%;
+    float: left;
+    align-content: left;
+    padding: 15px;  
+}
+
 .flex_welcome_left {
     width: 80%;
     float: left;

@@ -12,7 +12,7 @@
 
 <body>
     <div class="topnav">
-        <a class="inactive" href="../index.html">Home</a>
+        <a class="inactive" href="welcome_attendant.html">Dashboard</a>
         <a class="inactive" href="../login.html">Logout</a>
     </div>
     <div class="flex-container">
@@ -20,7 +20,7 @@
             <div id="content">
                 <h1 class="head">Shopping Cart</h1>
                 <form id="shopping-cart" action="add_admin.html" method="post">
-                    <table class="shopping-cart">
+                    <table class="shopping-cart" id="myTable">
                         <thead>
                             <tr>
                                 <th scope="col">Item</th>
@@ -29,32 +29,24 @@
                             </tr>
                             <tr>
                                 <td># CONVERSE</td>
-                                <td> <input type="text" name="qty-1" id="qty-1" class="qty" value="1" /></td>                            
+                                <td> <input type="text" name="qty-1" id="qty-1" class="qty" value="1" /></td>
                                 <td>UGX 100,000</td>
                                 <td><a class="btn">Remove</a></td>
-                            
-                            
                             </tr>
                             <tr>
-                                    <td># DRUM DERBY</td>
-                                    <td><input type="text" name="qty-1" id="qty-1" class="qty" value="1" /></td>
-                                    
-                                        <td>UGX 180,000</td>
-                                        <td><a class="btn">Remove</a></td>
-    
-                                    
-                                </tr>
-                                <tr>
-                                    <td># FADED GLORY</td>
-                                    <td><input type="text" name="qty-1" id="qty-1" class="qty" value="1" /></td>
-                                    
-                                        <td>UGX 100,000</td>
-                                        <td><a class="btn">Remove</a></td>
-                                    
-                                </tr>
+                                <td># DRUM DERBY</td>
+                                <td><input type="text" name="qty-1" id="qty-1" class="qty" value="1" /></td>
+                                <td>UGX 180,000</td>
+                                <td><a class="btn">Remove</a></td>
+                            </tr>
+                            <tr>
+                                <td># FADED GLORY</td>
+                                <td><input type="text" name="qty-1" id="qty-1" class="qty" value="1" /></td>
+                                <td>UGX 100,000</td>
+                                <td><a class="btn">Remove</a></td>
+                            </tr>
                         </thead>
                         <tbody>
-
                         </tbody>
                     </table>
                     <p id="sub-total">
@@ -76,22 +68,17 @@
                     </ul>
                 </form>
             </div>
-
-
-
         </div>
         <div class="flex_welcome_right">
             <hr>
             Attendant Panel
             <hr>
             <ul class="sidenav">
-                <li><a href="">Make a Sale</a></li>
-                <li><a href="">View Sales</a></li>
+                <li><a href="MakeSale_atendant.html">Make a Sale</a></li>
+                <li><a href="view_attendant.html">View Sales</a></li>
                 <li><a href="">Profile</a></li>
-                <li><a href="">Logout</a></li>
             </ul>
         </div>
     </div>
 </body>
-
 </html>
