@@ -265,7 +265,7 @@
 
 .product-name {
 	text-align: center;
-	color: #fc0;
+	color:  #fff;
 	margin: 0;
 	font-size: 1.4em;
 	padding-bottom: 0.2em;
@@ -275,15 +275,11 @@
 }
 
 .product-price {
-	width: 4em;
-	height: 4em;
-	font-size: 1.2em;
 	text-align: center;
-	margin: 1em auto;
-	background: #fff;
-	color: #800;
-	line-height: 4;
-	border-radius: 50%;
+	font-weight: bold;
+	/* font-size: 20px;	 */
+	/* color: #800;	 */
+	color: #fc0;
 }
 
 form.add-to-cart div,
@@ -303,13 +299,13 @@ form input.qty {
 
 .btn, a.btn {
 	display: inline-block;
-	background: #cc1400;
+	background: #4CAF50;
 	color: #fff;
 	font: 1em 'PT Serif', serif;
 	padding: 0.3em 1em;
 	text-align: center;
 	border-radius: 4px;
-	border: 1px solid #a00;
+	border: 1px solid ;
 }
 
 
@@ -357,7 +353,7 @@ body#checkout-page #site-info {
 
 .shopping-cart tr:nth-child(even) {
 	background: #fafafa;
-},
+}
 
 .shopping-cart td.pdelete {
 	text-align: center;

@@ -1,6 +1,4 @@
-table, th, td {
-  border: 1px solid black;
-}
+
 
 table {
   width: 100%;
@@ -47,5 +45,11 @@ td {
 
 .sidenav a:hover {
   background-color: #333;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
 }
 
