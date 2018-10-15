@@ -1,4 +1,16 @@
+.flex_product_left {
+  width: 30%;
+  float: left;
+  align-content: left;
+  padding: 15px;  
+}
 
+.flex_product_right {
+  width: auto;
+  float: left;
+  align-content: left;
+  padding: 15px;  
+}
 
 table {
   width: 100%;
@@ -54,7 +66,7 @@ td {
 }
 
 #myInput {
-  background-image: url('/css/searchicon.png');
+  background-image: url('images/searchicon.png');
   background-position: 10px 10px;
   background-repeat: no-repeat;
   width: 100%;
@@ -149,4 +161,61 @@ td {
 }
 .select-items div:hover, .same-as-selected {
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+.search{
+  background: none;
+}
+
+.search input[type=text] {
+  width: 80%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 10px;
+  background-color: white;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 9px 10px 9px 20px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.search p{
+  font-weight: bold;
+}
+
+.search input[type=text]:focus {
+  width: 100%;
+}
+
+.search button {
+  background-color: #008fb3;
+  color: white;
+  border: none; 
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+	font-weight: bold;
+  width: 80%;
+  border-radius: 25px;
+  justify-content: center;
+}
+
+#table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+#table tr:nth-child(even) {
+  background-color: #dddddd;
 }

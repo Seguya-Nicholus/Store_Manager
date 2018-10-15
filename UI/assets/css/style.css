@@ -397,12 +397,14 @@ body#checkout-page #site-info {
 #pricing {
 	padding: 0.5em;
 	margin: 1em 0;
-	background: #fafafa;
+	background: #ddd;
 }
 
 #sub-total, #shipping {
 	margin: 1.5em 0;
 	text-align: right;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 #sub-total span,
