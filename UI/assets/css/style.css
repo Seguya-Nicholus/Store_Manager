@@ -214,90 +214,26 @@
 }
 
 /*========================== shopping cart ============================================*/
-
-#site {
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 0 1em;
+ 
+.heading {
+	padding: none;
 }
 
-#masthead {
-	margin-top: 3em;
-	padding: 2em 0 0.5em 0;
-	border-bottom: 1px solid #ddd;
-}
-
-#masthead h1 {
-	margin: 0;
-	font-size: 3.5em;
-	overflow: hidden;
-	padding-left: 85px;
-	min-height: 82px;
-	line-height: 2.3;
-	background: url(../images/logo.png) no-repeat 0 50%;
-	color: #900;
-	
-}
-
-.tagline {
-	float: right;
-	color: #666;
-	font-size: 14px;
-	padding-top: 3.5em;
-}
-
-#products ul {
-	margin: 1.5em 0;
-	padding: 0;
-	list-style: none;
-	overflow: hidden;
-}
-
-#products li {
-	float: left;
-	width: 31%;
-	margin: 0 1%;
-	display: block;
-}
-
-.product-image {
-	margin: 0 auto 1em auto;
-	background: #000;
-	width: 150px;
-	height: 150px;
-	overflow: hidden;
-	border-radius: 50%;
-	
-}
-
-.product-description {
-	padding: 1em;
-	background: #000;
-	color: #fff;
-	border-radius: 5px;
-}
-
-.product-name {
+.Name_of_shoe {
 	text-align: center;
-	color:  #fff;
+	color:  #000;
 	margin: 0;
 	font-size: 1.4em;
-	padding-bottom: 0.2em;
-	border-bottom: 1px dotted #666;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
 }
 
-.product-price {
+.Price_of_shoe {
 	text-align: center;
 	font-weight: bold;
-	/* font-size: 20px;	 */
-	/* color: #800;	 */
-	color: #fc0;
-}
+	color: blue;
+} 
 
-form.add-to-cart div,
-form.add-to-cart p {
+form.add_to_cart div,
+form.add_to_cart p {
 	text-align: center;
 }
 
@@ -320,19 +256,6 @@ form input.qty {
 	text-align: center;
 	border-radius: 4px;
 	border: 1px solid ;
-}
-
-
-#site-info {
-	height: 3em;
-	width: 100%;
-	line-height: 3;
-	text-align: center;
-	background: #cc8500;
-	position: absolute;
-	color: #fff;
-	left: 0;
-	bottom: 0;
 }
 
 body#checkout-page #site-info {
@@ -373,28 +296,19 @@ body#checkout-page #site-info {
 	text-align: center;
 }
 
-.pdelete a,
-.pdelete a:hover {
-	color: #c00;
-	text-decoration: none;
-	font-size: 2.5em;
-	display: block;
-	text-align: center;
-}
-
-#shopping-cart-actions {
+#shopping_cart_methods {
 	margin: 1.5em 0;
 	padding: 0;
 	list-style: none;
 	text-align: center;
 }
 
-#shopping-cart-actions li {
+#shopping_cart_methods li {
 	display: inline-block;
 	margin-right: 1em;
 }
 
-#pricing {
+#Item_price {
 	padding: 0.5em;
 	margin: 1em 0;
 	background: #ddd;
@@ -413,45 +327,45 @@ body#checkout-page #site-info {
 }
 
 #content > h1,
-#checkout-order-form h2 {
+#form_Complete_sale h2 {
 	font-size: 2em;
 	text-align: center;
 }
 
-#pricing #sub-total,
-#pricing #shipping {
+#Item_price #sub-total,
+#Item_price #shipping {
 	margin: 1em 0;
 }
 
-#checkout-order-form {
+#form_Complete_sale {
 	margin: 1.5em 0;
 }
 
-#checkout-order-form fieldset {
+#form_Complete_sale fieldset {
 	border: 1px solid #ddd;
 	border-radius: 6px;
 	padding: 1em;
 	margin-bottom: 1.3em;
 }
 
-#checkout-order-form legend {
+#form_Complete_sale legend {
 	padding: 0.3em;
 	background: #fafafa;
 	font-weight: bold;
 }
 
-#checkout-order-form div {
+#form_Complete_sale div {
 	margin-bottom: 1em;
 }
 
-#checkout-order-form label {
+#form_Complete_sale label {
 	display: block;
 	font-weight: bold;
 	margin-bottom: 0.3em;
 	text-align: left;
 }
 
-#checkout-order-form input[type="text"] {
+#form_Complete_sale input[type="text"] {
 	width: 200px;
 	display: block;
 	background: #fff;
@@ -460,62 +374,7 @@ body#checkout-page #site-info {
 	padding: 0.3em;
 }
 
-#checkout-order-form select {
+#form_Complete_sale select {
 	width: 200px;
 	display: block;
-}
-
-.message {
-	display: block;
-	margin: 0.5em 0;
-	color: red;
-}
-
-#user-details {
-	margin: 1.5em 0;
-}
-
-#user-details > h2 {
-	text-align: center;
-	font-size: 2em;
-}
-
-#user-details-content {
-	margin: 1.5em 0;
-	padding: 1em;
-	border: 1px solid #ddd;
-	border-radius: 6px;
-	overflow: hidden;
-}
-
-#user-details-content .detail {
-	float: left;
-	width: 46%;
-}
-
-#user-details-content .detail.right {
-	float: right;
-}
-
-#user-details-content .detail > h2 {
-	text-align: center;
-	font-size: 1.6em;
-	margin-bottom: 0.5em;
-}
-
-#user-details-content ul {
-	margin: 0 0 1em 0;
-	padding: 0;
-	list-style: none;
-}
-
-#user-details-content li {
-	display: block;
-	margin-bottom: 0.5em;
-	padding-bottom: 0.3em;
-	border-bottom: 1px solid #ddd;
-}
-
-#paypal-form {
-	margin: 1.5em 0;
 }
