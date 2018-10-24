@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/slider.css">
+    <script src="../assets/js/main.js"></script>
     <title>Store - Products</title>
 </head>
 
@@ -17,7 +18,8 @@
     </div>
     <div class="flex-container">
         <div class="flex_welcome_left">
-            <p class="head">Search for an Item  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for an Item by Name ." title="Type in a name" id="funkystyling"></p>
+            <p class="head">Search for an Item <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for an Item by Name ."
+                    title="Type in a name" id="funkystyling"></p>
             <hr>
             <table>
                 <tr>
@@ -28,12 +30,15 @@
                         <div>
                             <h3 class="Name_of_shoe">converse</h3>
                             <p class="Price_of_shoe">UGX 100,000 </p>
-                            <form class="add_to_cart" action="add_attendant.html" method="post">
+                            <form class="add_to_cart" method="post">
                                 <div>
                                     <label for="qty-1">Available Quantity</label>
                                     <input type="text" name="qty-1" id="qty-1" class="qty" value="19" />
                                 </div>
-                                <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                <a>
+                                    <p><button type="button" onclick="navigate_attendant()" id="submit" class="btn">Add
+                                            to cart</button></p>
+                                </a>
                             </form>
                         </div>
                     </td>
@@ -45,12 +50,15 @@
                         <div>
                             <h3 class="Name_of_shoe">drum derby</h3>
                             <p class="Price_of_shoe">UGX 180,000 </p>
-                            <form class="add_to_cart" action="add_attendant.html" method="post">
+                            <form class="add_to_cart" method="post">
                                 <div>
                                     <label for="qty-1">Available Quantity</label>
                                     <input type="text" name="qty-1" id="qty-1" class="qty" value="21" />
                                 </div>
-                                <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                <a>
+                                    <p><button type="button" onclick="navigate_attendant()" id="submit" class="btn">Add
+                                            to cart</button></p>
+                                </a>
                             </form>
                         </div>
                     </td>
@@ -66,7 +74,10 @@
                                     <label for="qty-1">Available Quantity</label>
                                     <input type="text" name="qty-1" id="qty-1" class="qty" value="10" />
                                 </div>
-                                <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                <a>
+                                    <p><button type="button" onclick="navigate_attendant()" id="submit" class="btn">Add
+                                            to cart</button></p>
+                                </a>
                             </form>
                         </div>
                     </td>
@@ -84,7 +95,10 @@
                                     <label for="qty-1">Available Quantity</label>
                                     <input type="text" name="qty-1" id="qty-1" class="qty" value="16" />
                                 </div>
-                                <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                <a>
+                                    <p><button type="button" onclick="navigate_attendant()" id="submit" class="btn">Add
+                                            to cart</button></p>
+                                </a>
                             </form>
                         </div>
                     </td>
@@ -100,7 +114,10 @@
                                     <label for="qty-1">Available Quantity</label>
                                     <input type="text" name="qty-1" id="qty-1" class="qty" value="11" />
                                 </div>
-                                <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                <a>
+                                    <p><button type="button" onclick="navigate_attendant()" id="submit" class="btn">Add
+                                            to cart</button></p>
+                                </a>
                             </form>
                         </div>
                     </td>
@@ -116,7 +133,10 @@
                                     <label for="qty-1">Available Quantity</label>
                                     <input type="text" name="qty-1" id="qty-1" class="qty" value="18" />
                                 </div>
-                                <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                <a>
+                                    <p><button type="button" onclick="navigate_attendant()" id="submit" class="btn">Add
+                                            to cart</button></p>
+                                </a>
                             </form>
                         </div>
                     </td>
@@ -134,7 +154,10 @@
                                     <label for="qty-1">Available Quantity</label>
                                     <input type="text" name="qty-1" id="qty-1" class="qty" value="31" />
                                 </div>
-                                <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                <a>
+                                    <p><button type="button" onclick="navigate_attendant()" id="submit" class="btn">Add
+                                            to cart</button></p>
+                                </a>
                             </form>
                         </div>
                     </td>
@@ -150,7 +173,10 @@
                                     <label for="qty-2">Available Quantity</label>
                                     <input type="text" name="qty-2" id="qty-2" class="qty" value="41" />
                                 </div>
-                                <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                <a>
+                                    <p><button type="button" onclick="navigate_attendant()" id="submit" class="btn">Add
+                                            to cart</button></p>
+                                </a>
                             </form>
                         </div>
                     </td>
@@ -167,7 +193,10 @@
                                     <label for="qty-3">Available Quantity</label>
                                     <input type="text" name="qty-3" id="qty-3" class="qty" value="25" />
                                 </div>
-                                <p><input type="submit" value="Add to cart" class="btn" /></p>
+                                <a>
+                                    <p><button type="button" onclick="navigate_attendant()" id="submit" class="btn">Add
+                                            to cart</button></p>
+                                </a>
                             </form>
                         </div>
                     </td>
@@ -186,4 +215,5 @@
         </div>
     </div>
 </body>
+
 </html>
