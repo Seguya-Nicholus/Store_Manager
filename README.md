@@ -11,3 +11,12 @@ Store Manager is a web application that helps store owners manage their sales an
 * Products should have categories.
 * Store attendants should be able to add products to specific categories.
 * Any of the Users either the Store Owner /Store attendant can logout of their accounts.
+
+#######  Login Details #######
+* For Admin:
+    * Username : admin  
+    * Password : admin
+
+* For Attendant:
+    * Username : attendant  
+    * Password : 123
